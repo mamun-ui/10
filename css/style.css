@@ -1,0 +1,63 @@
+/* universel selector */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+
+    /* id selector */
+}
+#container {
+    text-align: center;
+    width: 50%;
+    background-color: brown;  
+    margin: 10% auto;
+    padding: 20px;
+}
+/* desendent selector  */
+#container h1{
+    font-size: 50px;
+    margin: 20px opx ;
+}
+form{
+
+}
+/* grouping selector */
+input, label{
+ display: block;   
+ width: 80%;
+ margin: auto;
+}
+label{
+    font-size: 20;
+    text-transform: uppercase;
+}
+input{
+    padding: 10px;
+    margin: 10px auto;
+}
+/* desendent selector */
+p{
+      
+}
+p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+input[type="submit"]{
+    width: 30%;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+/* psudo class selector */
+input[type="submit"]:hover{
+    background-color: white;
+    color: red;
+    border: red;
+
+
+}
